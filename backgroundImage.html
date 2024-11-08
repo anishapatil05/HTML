@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #bgimage1 {
+            height: 300px;
+            width: 800px;
+            border: 2px solid black;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9p-0BnSv99bPbduLNnfDTdkR1dZs4s0-IVg&s);
+        }
+
+        #bgrepeat {
+            height: 300px;
+            width: 800px;
+            border: 2px solid black;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9p-0BnSv99bPbduLNnfDTdkR1dZs4s0-IVg&s);
+            /* values : 1.repeat
+                   2.no-repeat
+                   3.repeat-x
+                   4.repeat-y    */
+            background-repeat: no-repeat;
+        }
+
+        #bgsize {
+            height: 300px;
+            width: 800px;
+            border: 2px solid black;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9p-0BnSv99bPbduLNnfDTdkR1dZs4s0-IVg&s);
+            /* values : 1.cover
+                   2.contain
+                   3.auto
+                   4.custom height width    */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #bgattacment {
+            height: 500px;
+            width: 1000px;
+            border: 2px solid black;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9p-0BnSv99bPbduLNnfDTdkR1dZs4s0-IVg&s);
+            background-repeat: no-repeat;
+            background-size: contain;
+            font-size: smaller;
+            color: beige;
+            /* values : 1.fixed
+                   2.scroll*/
+            background-attachment: fixed;
+        }
+
+        #bgposition {
+            height: 500px;
+            width: 1000px;
+            border: 2px solid black;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9p-0BnSv99bPbduLNnfDTdkR1dZs4s0-IVg&s);
+            background-repeat: no-repeat;
+            background-size: auto;
+            font-size: smaller;
+            color: beige;
+            /* values : 1.top-left
+                    2.top-right
+                    3.top-center
+                    
+                    1.center-left
+                    2.center-right
+                    3.center-center
+
+                    1.bottom-left
+                    2.bottom-right
+                    3.bottom-center    */
+            background-attachment: fixed;
+            background-position: center;
+            background-size: contain;
+        }
+
+        #innerdiv {
+            /* Transperant : 0.1 to 1 */
+            background-color: rgb(0, 0, 0, 0.6);
+            height: 100%;
+            color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Background-image</h2>
+    <div id="bgimage1"></div>
+
+    <h2>Background-Repeat</h2>
+    <div id="bgrepeat"></div>
+
+    <h2>Background-size</h2>
+    <div id="bgsize"></div>
+
+
+
+    <h2>Background-attachment</h2>
+    <div id="bgattacment">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores fugiat neque cum ut, nihil eum magnam itaque
+        iure corporis eveniet! Nostrum velit, sunt sequi ea perspiciatis id quibusdam dolorem nobis.
+        Aliquid soluta nihil officia modi eveniet! Quia aspernatur, voluptas numquam dolore nostrum minus excepturi
+        similique fugit, consequuntur explicabo placeat iure omnis voluptatibus repellat voluptatum hic sed nulla,
+        perferendis qui recusandae?
+        Quaerat error a soluta deserunt nobis repellendus doloremque eius, ullam nihil, repellat, officiis quibusdam
+        officia. Tempore amet, molestias possimus praesentium numquam minus, quo deleniti optio non ut, dicta error
+        commodi!
+        Voluptas consequuntur neque iure deserunt ullam vitae nesciunt officia magni molestiae? Nobis sint dolorem unde
+        dolor quo necessitatibus tempore id ratione non. Nesciunt voluptate laborum officia iusto iste, recusandae in.
+        Facilis ex impedit aliquid, ipsa sit rerum repellat molestias, assumenda laborum labore libero distinctio,
+        corporis dolore modi nostrum. Distinctio saepe reprehenderit est nobis consequuntur impedit iure ut officia?
+        Consequuntur, harum?
+        Odit, sint! Temporibus quod est dolorum totam quia magni aut! Aliquam cumque, excepturi facilis praesentium
+        perferendis voluptatem error deleniti animi voluptas, id omnis beatae perspiciatis quos repellat, ratione ullam
+        nobis?
+        Suscipit quisquam veritatis aperiam autem odio, quis quo ab harum temporibus corporis veniam voluptates velit.
+        Accusamus, voluptatem fuga eos illo nesciunt incidunt quam reprehenderit dolor praesentium asperiores ut nisi
+        velit.
+        Repellendus quae quas doloreuscipit dicta quod voluptas quasi inventore hic aperiam qui quibusdam consequuntur
+        saepe dolorum molestias pariatur facere deleniti asperiores veritatis adipisci. Dignissimos, adipisci
+        necessitatibus!
+        Repellendus minima delectus repudiandae nemo expedita enim vitae adipisci ullam obcaecati ipsum, neque quam
+        doloremque dignissimos porro asperiores nisi iusto quae odit fugiat? Fugiat nam voluptatibus quisquam
+        accusantium quis atque?
+        Ex nulla saepe sunt doloribus soluta dolores temporibus, odio illo nisi, quod magnam ullam facere tempora eaque
+        facilis beatae recusandae aliquam cupiditate? Ea, atque. Optio libero qui aliquam autem totam.
+        Nihil doloremque explicabo aspernatur. Repudiandae voluptatem aliquid dolore natus. Expedita rem praesentium,
+        officiis culpa, suscipit distinctio necessitatibus quod sint at corporis architecto impedit eum soluta quae a
+        excepturi, ipsam sequi.
+        Culpa qui itaque mollitia quam fuga placisi quod modi nulla tempore sequi molestias soluta cum velit, assumenda
+        quis? Quas molestias accusantium architecto iusto asperiores voluptatibus quos repellendus magni, sapiente
+        cumque?
+        Est facilis esse quibusdam aut laboriosam impedit cupiditate ea, nemo perferendis aperiam, possimus, in dolore?
+        Vel officiis labore possimus, distinctio illo tempore qui explicabo voluptatum quasi nihil expedita autem nisi.
+    </div>
+
+    <h2>Background-position</h2>
+    <div id="bgposition">
+        <div id="innerdiv">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores fugiat neque cum ut, nihil eum magnam
+            itaque iure corporis eveniet! Nostrum velit, sunt sequi ea perspiciatis id quibusdam dolorem nobis.
+            Aliquid soluta nihil officia modi eveniet! Quia aspernatur, voluptas numquam dolore nostrum minus excepturi
+            similique fugit, consequuntur explicabo placeat iure omnis voluptatibus repellat voluptatum hic sed nulla,
+            perferendis qui recusandae?
+            Quaerat error a soluta deserunt nobis repellendus doloremque eius, ullam nihil, repellat, officiis quibusdam
+            officia. Tempore amet, molestias possimus praesentium numquam minus, quo deleniti optio non ut, dicta error
+            commodi!
+            Voluptas consequuntur neque iure deserunt ullam vitae nesciunt officia magni molestiae? Nobis sint dolorem
+            unde dolor quo necessitatibus tempore id ratione non. Nesciunt voluptate laborum officia iusto iste,
+            recusandae in.
+            Facilis ex impedit aliquid, ipsa sit rerum repellat molestias, assumenda laborum labore libero distinctio,
+            corporis dolore modi nostrum. Distinctio saepe reprehenderit est nobis consequuntur impedit iure ut officia?
+            Consequuntur, harum?
+            Odit, sint! Temporibus quod est dolorum totam quia magni aut! Aliquam cumque, excepturi facilis praesentium
+            perferendis voluptatem error deleniti animi voluptas, id omnis beatae perspiciatis quos repellat, ratione
+            ullam nobis?
+            Suscipit quisquam veritatis aperiam autem odio, quis quo ab harum temporibus corporis veniam voluptates
+            velit. Accusamus, voluptatem fuga eos illo nesciunt incidunt quam reprehenderit dolor praesentium asperiores
+            ut nisi velit.
+            Repellendus quae quas doloreuscipit dicta quod voluptas quasi inventore hic aperiam qui quibusdam
+            consequuntur saepe dolorum molestias pariatur facere deleniti asperiores veritatis adipisci. Dignissimos,
+            adipisci necessitatibus!
+            Repellendus minima delectus repudiandae nemo expedita enim vitae adipisci ullam obcaecati ipsum, neque quam
+            doloremque dignissimos porro asperiores nisi iusto quae odit fugiat? Fugiat nam voluptatibus quisquam
+            accusantium quis atque?
+            Ex nulla saepe sunt doloribus soluta dolores temporibus, odio illo nisi, quod magnam ullam facere tempora
+            eaque facilis beatae recusandae aliquam cupiditate? Ea, atque. Optio libero qui aliquam autem totam.
+            Nihil doloremque explicabo aspernatur. Repudiandae voluptatem aliquid dolore natus. Expedita rem
+            praesentium, officiis culpa, suscipit distinctio necessitatibus quod sint at corporis architecto impedit eum
+            soluta quae a excepturi, ipsam sequi.
+            Culpa qui itaque mollitia quam fuga placisi quod modi nulla tempore sequi molestias soluta cum velit,
+            assumenda quis? Quas molestias accusantium architecto iusto asperiores voluptatibus quos repellendus magni,
+            sapiente cumque?
+            Est facilis esse quibusdam aut laboriosam impedit cupiditate ea, nemo perferendis aperiam, possimus, in
+            dolore? Vel officiis labore possimus, distinctio illo tempore qui explicabo voluptatum quasi nihil expedita
+            autem nisi.
+        </div>
+    </div>
+
+</body>
+
+
+</html>
